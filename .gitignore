@@ -40,3 +40,5 @@ node_modules.zip
 h-nextjs.zip
 node_modules.zip
 .next.zip
+node_modules/
+backend/vendor/
