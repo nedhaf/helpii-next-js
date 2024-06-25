@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve static files directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Exclude backend folder from Next.js routing
+  RewriteCond %{REQUEST_URI} ^/backend/.*$
+  RewriteRule ^backend/ - [L]
+
+  # Redirect all other requests to Next.js routing
+  RewriteRule ^(.*)$ /$1.html [L]
+
+  # Redirect all other requests to index.html
+  RewriteRule ^ index.html [L]
+</IfModule>

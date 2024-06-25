@@ -1,0 +1,209 @@
+.page_frontend_search-ads .inner_bx_content2 {
+    align-items: center;
+}
+.page_frontend_search-ads .social-set {
+    margin: 0;
+}
+.main-sec-div .MyFlex .User_profilE h4 {
+    margin: 24px 0 0 !important;
+    top: 0;
+    font-size: 29px;
+    line-height: 38px;
+    color: #3b3b3b;
+    position: relative;
+}
+.main-sec-div .MyFlex2 {
+    margin-top: 50px !important;
+    margin-bottom: 50px;
+}
+.User_profilE .srating_starrer {
+    position: relative;
+    top: 2px;
+}
+.rounded_user figcaption {
+    top: 24px;
+}
+.MyFlex2 a.btn.profile_actions:hover {
+    background: #7b9467 !important;
+}
+.feedback-modal.sendpm-modal
+    .feedback-user-list
+    .user-list:last-child
+    textarea {
+    border: none;
+    min-height: 145px;
+    background: #fff;
+}
+.feedback-modal.sendpm-modal .modal-header h4 {
+    margin: 26px 0 45px !important;
+}
+.feedback-modal.sendpm-modal .modal-footer {
+    padding: 40px 0 64px;
+}
+.sendpm-modal .send-btn i.fas {
+    width: 60px;
+    height: 60px;
+    line-height: 59px;
+    font-size: 24px;
+}
+.feedback-modal.sendpm-modal .modal-header {
+    padding: 0 79px;
+}
+.feedback-modal.sendpm-modal textarea#send-quickmessage:focus {
+    border: none;
+    box-shadow: none;
+}
+.search-ads-page .d-flexhashtag p {
+    font-size: 20px;
+    line-height: 27px;
+}
+.search-ads-page .inner_bx_content2.pl-1 {
+    margin: 0 15px;
+}
+.inner_bx_content12 img {
+    width: 13px;
+    top: 0;
+}
+.iner-fac-down div.drop_links span {
+    font-size: 12px;
+}
+.iner-fac-down ul {
+    width: 80%;
+}
+@media screen and (min-width: 1400px) {
+    .home-sec .hometab_one {
+        display: inline-block;
+        margin-right: 19px;
+    }
+    .home-sec .hom_twotabs.other-page-search {
+        margin: 0 !important;
+    }
+    .main-sec-div .MyFlex .User_profilE h4 {
+        margin: 36px 0 0 !important;
+        top: 7px;
+        position: relative;
+    }
+    .banner-img img.banner-img-cls {
+        height: 345px;
+    }
+    .rounded_user figcaption {
+        top: 22px;
+    }
+    .User_profilE .srating_starrer {
+        position: relative;
+        top: 22px;
+    }
+    .ami_name,
+    .page_frontend_about .multi_boxes font,
+    body.page_frontend_user_inbox .contacts li .user_info h6:first-child,
+    body.page_frontend_user_inbox .contacts li .user_info h6:last-child,
+    body.page_frontend_user_inbox .msg_cotainer_send span,
+    body.page_frontend_user_inbox .user_info span {
+        font-size: 16px;
+    }
+    .iner-fac-down div.drop_links span {
+        font-size: 15px;
+    }
+    .iner-fac-down ul {
+        width: auto;
+        min-width: 108px;
+    }
+    .inner_bx_content1 .titles {
+        font-size: 20px;
+    }
+    .facilities_bx .sting-icon {
+        top: -5px;
+    }
+    .inbox .user_img,
+    body.page_frontend_user_inbox .img_cont_msg {
+        width: 56px;
+        height: 56px;
+    }
+    body.page_frontend_user_inbox .card-body.contacts_body {
+        max-height: 450px;
+    }
+    body.page_frontend_user_inbox .contacts .active {
+        box-shadow: none;
+    }
+    body.page_frontend_user_inbox
+        #privateMessageBox
+        .row.card.right-part
+        .card-footer {
+        padding: 0 20px;
+        min-height: 150px;
+    }
+    .inner_bx_content12 img {
+        top: auto;
+    }
+    .fix_part {
+        position: static;
+    }
+    .page_frontend_about .controls_part {
+        padding: 80px 0 !important;
+    }
+    .page_frontend_about .controls_part a,
+    .page_frontend_about .controls_part span {
+        font-size: 21px;
+    }
+    .page_frontend_about .controls_part h2 {
+        font-size: 46px;
+    }
+    .page_frontend_about .multi_boxes .bx-dark h1 {
+        font-size: 26px;
+    }
+    .page_frontend_about .multi_boxes img.img-fluid {
+        object-fit: cover;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .service-tab.sp-feedback
+        .feedback-user-detail
+        .feedback-content-block
+        .feedback-rating.row
+        i {
+        font-size: 14px;
+    }
+    .User_profilE .srating_starrer {
+        margin-bottom: 30px;
+    }
+    .inner_bx_content1 .titles {
+        line-height: normal !important;
+    }
+    body.page_frontend_user_feedbacks .MyFlex2 {
+        display: flex;
+    }
+}
+@media screen and (max-width: 767px) {
+    .page_frontend_about .controls_part {
+        padding: 40px 0;
+    }
+    .home-sec .hom_twotabs.other-page-search {
+        left: 0 !important;
+    }
+    .banner-img img.banner-img-cls {
+        height: 100%;
+        max-height: 260px !important;
+        object-fit: cover;
+    }
+    .feedback-modal .feedback-user-list .user-list {
+        padding: 0 20px;
+    }
+    body.page_frontend_user_feedbacks .MyFlex2 {
+        display: flex;
+        margin-top: 50px !important;
+        column-gap: unset;
+        margin-bottom: 50px;
+    }
+    .cmn-footer-heading a i.fab,
+    .cmn-footer-heading h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .inner_bx_content12 img {
+        top: 3px;
+    }
+    .search-ads-page .d-flexhashtag p {
+        font-size: 18px;
+    }
+}
