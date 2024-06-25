@@ -2,3 +2,6 @@
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
+h-nextjs.zip filter=lfs diff=lfs merge=lfs -text
+node_modules.zip filter=lfs diff=lfs merge=lfs -text
+.next.zip filter=lfs diff=lfs merge=lfs -text
